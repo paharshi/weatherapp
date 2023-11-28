@@ -13,19 +13,34 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.wetherBg{
+  background: url("https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg");
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.heading{
+  color:rgb(227, 5, 5);
+  font-weight: 700;
+}
+
+.wetherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+.weathorIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +50,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.weathorCity{
+  font-size: 35px;
+}
+.weathorTemp{
+  font-size:55px;
+  font-weight: 700;
 }
